@@ -3204,13 +3204,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     }
 }
 
-.work .work-list {
+.table .table-list {
     list-style: none;
     padding: 0;
     margin: 0 0 6.25em 0
 }
 
-.work .work-list .row {
+.table .table-list .row {
     width: 100%;
     clear: both;
     border-bottom: 1px solid #000;
@@ -3220,11 +3220,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     font-weight: 400
 }
 
-.work .work-list .row.head {
+.table .table-list .row.head {
     padding: .9375em 0
 }
 
-.work .work-list .row a {
+.table .table-list .row a {
     display: block;
     overflow: hidden;
     padding: .9375em 0;
@@ -3232,17 +3232,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     text-decoration: none
 }
 
-.work .work-list .row:hover {
+.table .table-list .row:hover {
     background: #000;
     color: #fff;
     cursor: pointer
 }
 
-.work .work-list .row:hover a {
+.table .table-list .row:hover a {
     color: #fff
 }
 
-.work .work-list .row.head {
+.table .table-list .row.head {
     font-size: 1.375em;
     text-transform: uppercase;
     letter-spacing: .05em;
@@ -3251,56 +3251,56 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     font-weight: 900
 }
 
-.work .work-list .row.head:hover {
+.table .table-list .row.head:hover {
     background: #fff;
     color: #000
 }
 
-.work .work-list .row div {
+.table .table-list .row div {
     float: left
 }
 
-.work .work-list .row div p {
+.table .table-list .row div p {
     margin: 0
 }
 
-.work .work-list .row div.date {
+.table .table-list .row div.date {
     width: 20%;
     padding: 0 1%;
     text-align: left
 }
 
 @media screen and (min-width:480px) {
-    .work .work-list .row div.date {
+    .table .table-list .row div.date {
         width: 18%
     }
 }
 
 @media screen and (min-width:768px) {
-    .work .work-list .row div.date {
+    .table .table-list .row div.date {
         width: 10%
     }
 }
 
-.work .work-list .row div.title {
+.table .table-list .row div.title {
     width: 40%;
     padding: 0 1%;
     text-align: left
 }
 
 @media screen and (min-width:480px) {
-    .work .work-list .row div.title {
+    .table .table-list .row div.title {
         width: 18%
     }
 }
 
 @media screen and (min-width:768px) {
-    .work .work-list .row div.title {
+    .table .table-list .row div.title {
         width: 26%
     }
 }
 
-.work .work-list .row div.url {
+.table .table-list .row div.url {
     width: 35%;
     text-align: left;
     margin-right: 4%;
@@ -3308,13 +3308,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     display: none
 }
 
-.work .work-list .row div.handle {
+.table .table-list .row div.handle {
     width: 17%;
     padding: 0 1%;
     display: none
 }
 
-.work .work-list .row div.price {
+.table .table-list .row div.price {
     float: right;
     width: 15%;
     text-align: left;
@@ -3322,25 +3322,25 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @media screen and (min-width:480px) {
-    .work .work-list .row div.price {
+    .table .table-list .row div.price {
         width: 15%
     }
 }
 
 @media screen and (min-width:768px) {
-    .work .work-list .row div.price {
+    .table .table-list .row div.price {
         width: 8%
     }
 }
 
 @media screen and (min-width:480px) {
-    .work .work-list .row div.url {
+    .table .table-list .row div.url {
         display: block
     }
 }
 
 @media screen and (min-width:768px) {
-    .work .work-list .row div.handle {
+    .table .table-list .row div.handle {
         display: block
     }
 }
