@@ -1,0 +1,6 @@
+RewriteOptions inherit
+RewriteEngine On  # enables url rewriting
+
+RewriteCond %{REQUEST_FILENAME} !-d  # if requested uri is not directory (!-d)
+RewriteCond %{REQUEST_FILENAME}\.php -f # and if there is a file named URI+'.php' (-f)
+RewriteRule ^(.*)$ $1.php # then if there is any thing in uri then rewrite it as uri+'.php'
