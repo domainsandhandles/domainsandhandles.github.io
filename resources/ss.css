@@ -3345,6 +3345,25 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     }
 }
 
+.faq {
+    text-align: center;
+    margin-bottom: 3.125em;
+    font-size: 1em;
+    font-family: "effra-n4", "effra";
+    font-style: normal;
+    font-weight: 400
+}
+
+.faq p {
+    text-align: justify;
+    overflow: hidden;
+    margin-bottom: 10px;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+
 .contact .intro {
     margin-top: 40px;
     text-align: center;
